@@ -1,3 +1,3 @@
-var hello = require('./index')
-var name = new hello()
-console.log(name.videoStatus(1));
+var Person = require('./index')
+let ob = new Person()
+console.log(ob.videoStatus(1));

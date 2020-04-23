@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rp": "npm version patch && npm publish"
   },
+  "license": "https://github.com/Arvay/yb-common-js.git",
   "author": "arvay",
   "license": "ISC"
 }
